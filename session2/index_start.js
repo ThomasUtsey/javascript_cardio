@@ -95,7 +95,7 @@ function letterChanges(str) {
     }
   });
 
-  newStr = newStr.replace(/[aeiou]/g,(char) => char.toUpperCase())
+  newStr = newStr.replace(/[a|e|i|o|u]/g,(char) => char.toUpperCase())
 
   return newStr;
 }

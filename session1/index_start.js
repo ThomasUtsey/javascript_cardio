@@ -68,7 +68,7 @@ function reverseString(str) {
   // Return the character that is most common in a string
   // ex. maxCharacter('javascript') == 'a'
   function maxCharacter(str) {
-    const chrMap = []
+    const chrMap = {}
     let maxNum = 0
     let maxChr = ''
     for(chr of str){
